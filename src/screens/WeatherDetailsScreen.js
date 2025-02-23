@@ -27,7 +27,6 @@ const WeatherDetailsScreen = ({route, navigation}) => {
 
   return (
     <View style={styles.container}>
-      {/* Weather Card Component */}
       <WeatherCard
         city={weather.name}
         temperature={weather.main.temp}
@@ -36,7 +35,6 @@ const WeatherDetailsScreen = ({route, navigation}) => {
         windSpeed={weather.wind.speed}
       />
 
-      {/* Buttons Components using CustomButton */}
       <View style={styles.buttonContainer}>
         <CustomButton
           title="Go to Favorites"

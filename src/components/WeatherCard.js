@@ -8,7 +8,6 @@ const WeatherCard = ({city, temperature, description, humidity, windSpeed}) => {
       <Text style={styles.temperature}>{temperature}°C</Text>
       <Text style={styles.description}>{description}</Text>
 
-      {/* Updated Styling for Humidity & Wind Speed */}
       <View style={styles.detailsContainer}>
         <Text style={styles.details}>
           <Text style={styles.label}>Humidity: </Text>
